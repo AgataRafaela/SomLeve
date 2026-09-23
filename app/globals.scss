@@ -308,15 +308,14 @@ button {
 }
 .player-intro h1,
 .library-header h2 {
-  font-family: "Baloo 2", cursive;
+  font-size: 31px;
+  line-height: 1.05;
+  font-family: var(--font-itim);
   margin: 0;
   color: #514487;
   font-weight: 700;
 }
-.player-intro h1 {
-  font-size: 31px;
-  line-height: 1.05;
-}
+
 .player-intro p,
 .library-header p {
   margin: 6px 0 0;
