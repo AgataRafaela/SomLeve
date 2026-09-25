@@ -14,14 +14,84 @@ interface IconProps {
 export function Icon({ name, size = 24, filled = false }: IconProps) {
   const style: CSSProperties = { width: size, height: size };
 
-  if (name === 'rain') return <span style={style} className="sound-symbol">☁</span>;
-  if (name === 'wave') return <span style={style} className="sound-symbol">〰</span>;
-  if (name === 'wind') return <span style={style} className="sound-symbol">≋</span>;
-  if (name === 'noise') return <span style={style} className="sound-symbol">✿</span>;
-  if (name === 'forest') return <span style={style} className="sound-symbol">♠</span>;
-  if (name === 'fire') return <span style={style} className="sound-symbol">♨</span>;
-  if (name === 'lullaby') return <span style={style} className="sound-symbol">☾</span>;
-  if (name === 'baby-room') return <span style={style} className="sound-symbol">♡</span>;
+  if (name === 'rain') {
+    return (
+      <img
+        src="/icons/icon-chuva.png"
+        alt="Ícone de uma nuvem chovendo"
+        className="sound-image"
+      />
+    );
+  }
+  if (name === 'wave') {
+  return (
+    <img
+      src="/icons/icon-onda.png"
+      alt="Ícone de ondas"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'wind') {
+  return (
+    <img
+      src="/icons/icon-vento.png"
+      alt="Ícone de vento"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'noise') {
+  return (
+    <img
+      src="/icons/icon-estrelarosa.png"
+      alt="Ícone de estrela rosa"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'forest') {
+  return (
+    <img
+      src="/icons/icon-floresta.png"
+      alt="Ícone de floresta"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'fire') {
+  return (
+    <img
+      src="/icons/icon-lareira.png"
+      alt="Ícone de uma lareira com fogo"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'lullaby') {
+  return (
+    <img
+      src="/icons/icon-melodias.png"
+      alt="Ícone de canção de ninar"
+      className="sound-image"
+    />
+  );
+}
+
+if (name === 'baby-room') {
+  return (
+    <img
+      src="/icons/icon-coracao.png"
+      alt="Ícone de um coração rosa"
+      className="sound-image"
+    />
+  );
+}
 
   const common = { width: size, height: size, viewBox: '0 0 24 24', fill: 'none', stroke: 'currentColor', strokeWidth: 1.9, strokeLinecap: 'round' as const, strokeLinejoin: 'round' as const, 'aria-hidden': true };
 

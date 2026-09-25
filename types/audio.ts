@@ -15,7 +15,7 @@ export interface SoundDefinition {
   name: string;
   description: string;
   category: Exclude<AudioCategory, 'Todos' | 'Favoritos'>;
-  icon: 'rain' | 'wave' | 'wind' | 'noise' | 'forest' | 'fire' | 'moon' | 'heart';
+  icon: 'rain' | 'wave' | 'wind' | 'noise' | 'forest' | 'fire' | 'lullaby' | 'baby-room' | 'moon' | 'heart';
   accent: string;
   defaultVolume: number;
 }
