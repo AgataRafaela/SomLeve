@@ -7,6 +7,6 @@ export const SOUNDS: SoundDefinition[] = [
   { id: 'white-noise', name: 'Ruído branco', description: 'Som contínuo e uniforme.', category: 'Ruídos', icon: 'noise', accent: 'pink', defaultVolume: 0.4 },
   { id: 'forest', name: 'Floresta', description: 'Sons tranquilos da natureza.', category: 'Ambientes', icon: 'forest', accent: 'green', defaultVolume: 0.25 },
   { id: 'fireplace', name: 'Lareira', description: 'O calor aconchegante do fogo.', category: 'Ambientes', icon: 'fire', accent: 'peach', defaultVolume: 0.25 },
-  { id: 'lullaby', name: 'Canções de ninar', description: 'Melodias suaves para relaxar.', category: 'Ambientes', icon: 'moon', accent: 'lavender', defaultVolume: 0.3 },
-  { id: 'baby-room', name: 'Ambiente do bebê', description: 'Sons suaves e tranquilos.', category: 'Ambientes', icon: 'heart', accent: 'rose', defaultVolume: 0.25 },
+  { id: 'lullaby', name: 'Canções de ninar', description: 'Melodias suaves para relaxar.', category: 'Ambientes', icon: 'lullaby', accent: 'lavender', defaultVolume: 0.3 },
+  { id: 'baby-room', name: 'Ambiente do bebê', description: 'Sons suaves e tranquilos.', category: 'Ambientes', icon: 'baby-room', accent: 'rose', defaultVolume: 0.25 },
 ];
