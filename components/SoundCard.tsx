@@ -24,7 +24,7 @@ export function SoundCard({ sound, active, favorite, onToggleFavorite, onToggle 
         <Icon name="heart" filled={favorite} size={22} />
       </button>
       <button className="add-button" onClick={onToggle} aria-label={isActive ? `Remover ${sound.name}` : `Adicionar ${sound.name}`}>
-        <Icon name={isActive ? 'pause' : 'plus'} size={23} />
+        <Icon name={isActive ? 'pause-music' : 'plus'} size={23} />
       </button>
     </article>
   );

@@ -4,6 +4,7 @@ import { Icon } from './Icon';
 import { MixRow } from './MixRow';
 import { SoftButton } from './SoftButton';
 import type { ActiveSound } from '@/types/audio';
+import { VscLibraryCompact } from "react-icons/vsc";
 import Image from 'next/image'
 
 interface PlayerPanelProps {
@@ -57,7 +58,8 @@ export function PlayerPanel({
           aria-label="Abrir biblioteca de sons"
           onClick={onOpenLibrary}
         >
-          <Icon name="home" size={24} />
+          <VscLibraryCompact />
+
         </SoftButton>
 
         <SoftButton aria-label="Configurações">
