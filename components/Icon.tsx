@@ -157,7 +157,18 @@ if (name === 'baby-room') {
     );
     case 'moon': return <svg {...common}><path d="M20 15.5A8 8 0 0 1 8.5 4 8 8 0 1 0 20 15.5Z"/></svg>;
     case 'timer': return <svg {...common}><circle cx="12" cy="13" r="7"/><path d="M12 9v4l2.5 1.5M9 3h6"/></svg>;
-    case 'star': return <svg {...common} fill={filled ? 'currentColor' : 'none'}><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></svg>;
+    case 'star': return (
+        <img
+          src="/icons/icon-estrela.png"
+          alt="Próximo"
+          className="player-icon-image"
+          style={{
+            width: 42,
+            height: 42,
+            objectFit: 'contain',
+          }}
+        />
+    );
     case 'chevron': return <svg {...common}><path d="m9 18 6-6-6-6"/></svg>;
   }
 }
