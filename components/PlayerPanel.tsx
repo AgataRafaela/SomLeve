@@ -62,9 +62,7 @@ export function PlayerPanel({
 
         </SoftButton>
 
-        <SoftButton aria-label="Configurações">
-          <Icon name="settings" size={23} />
-        </SoftButton>
+       
       </div>
       
       <div className="player-image">
