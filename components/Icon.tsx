@@ -2,6 +2,7 @@
 
 import type { CSSProperties } from 'react';
 import type { SoundDefinition } from '@/types/audio';
+import { TiDelete } from "react-icons/ti";
 
 export type IconName = SoundDefinition['icon'] | 'home' | 'settings' | 'heart' | 'back' | 'plus' | 'sliders' | 'play' | 'pause' | 'pause-music' | 'prev' | 'next' | 'moon' | 'timer' | 'star' | 'chevron';
 
@@ -101,7 +102,7 @@ if (name === 'baby-room') {
     case 'heart': return <svg {...common} fill={filled ? 'currentColor' : 'none'}><path d="M20.8 8.8c0 5-8.8 10.2-8.8 10.2S3.2 13.8 3.2 8.8A4.7 4.7 0 0 1 12 6.2a4.7 4.7 0 0 1 8.8 2.6Z"/></svg>;
     case 'back': return <svg {...common}><path d="m15 18-6-6 6-6"/></svg>;
     case 'plus': return <svg {...common}><path d="M12 5v14M5 12h14"/></svg>;
-    case 'sliders': return <svg {...common}><path d="M4 7h10M18 7h2M4 12h3M11 12h9M4 17h10M18 17h2"/><circle cx="16" cy="7" r="2"/><circle cx="9" cy="12" r="2"/><circle cx="16" cy="17" r="2"/></svg>;
+    case 'sliders': return <TiDelete className="delete-icon"/>;
     case 'play':
       return (
         <img
