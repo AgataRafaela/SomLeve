@@ -28,3 +28,4 @@ Com uma interface delicada, o projeto combina desenvolvimento front-end e recurs
 
 ##
 
+<img width="1365" height="767" alt="Captura de tela 2026-10-13 171717" src="https://github.com/user-attachments/assets/046ef093-a21f-4960-aa19-8e132a76804b" />
